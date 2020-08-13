@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="gray_text">#999999</color>
+    <color name="black_text">#000000</color>
+    <color name="windowBackground">#fffafafa</color>
+    <color name="textColorHint">@color/gray_text</color>
+    <color name="gray">#EEEEEE</color>
+</resources>

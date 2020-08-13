@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/main_wallpaper"
+        android:icon="@mipmap/ic_launcher"
+        android:title="@string/home" />
+    <item
+        android:id="@+id/main_music"
+        android:icon="@mipmap/ic_launcher"
+        android:title="@string/message" />
+    <item
+        android:id="@+id/main_my"
+        android:icon="@mipmap/ic_launcher"
+        android:title="@string/mine" />
+    <item
+        android:id="@+id/main_wallpaper1"
+        android:icon="@mipmap/ic_launcher"
+        android:title="@string/mine" />
+    <item
+        android:id="@+id/main_wallpaper2"
+        android:icon="@mipmap/ic_launcher"
+        android:title="@string/mine" />
+
+
+
+</menu>

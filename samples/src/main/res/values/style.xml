@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="AppTheme" parent="BaseTheme">
+        <!-- 控制灰色遮罩颜色深度为60% -->
+        <item name="android:backgroundDimAmount">0.6</item>
+        <!--是否无标题-->
+        <item name="android:windowNoTitle">true</item>
+        <!-- 背景颜色 -->
+        <item name="android:windowBackground">@color/windowBackground</item>
+        <!-- 设置提示信息文字的颜色 -->
+        <item name="android:textColorHint">@color/gray_text</item>
+    </style>
+
+    <!--文字样式-->
+    <style name="textTheme">
+        <item name="android:textColor">@color/black_text</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:ellipsize">end</item>
+    </style>
+    <!--标题文字样式-->
+    <style name="h1TextTheme" parent="textTheme">
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <!--小文字样式-->
+    <style name="smallTextTheme" parent="textTheme">
+        <item name="android:textSize">13sp</item>
+    </style>
+
+
+</resources>
