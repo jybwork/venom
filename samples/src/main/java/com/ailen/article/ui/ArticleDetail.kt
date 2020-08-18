@@ -1,7 +1,7 @@
 package com.ailen.article.ui
 
 import android.os.Bundle
-import com.venom.core.base.KBaseActivity
+import com.venom.core.base.VBaseActivity
 import com.ailen.R
 
 /**
@@ -11,7 +11,7 @@ import com.ailen.R
  * 修改时间:  ?
  * 修改备注:  说明本次修改内容
  */
-class ArticleDetail:KBaseActivity(){
+class ArticleDetail:VBaseActivity(){
     override fun findLayoutId(savedInstanceState: Bundle?): Int {
         return R.layout.launcher_activity;
     }

@@ -1,7 +1,7 @@
 package com.ailen
 
 import android.os.Bundle
-import com.venom.core.base.KBaseFragDialog
+import com.venom.core.base.VBaseFragDialog
 import kotlinx.android.synthetic.main.frag_content_dialog.*
 
 /**
@@ -11,7 +11,7 @@ import kotlinx.android.synthetic.main.frag_content_dialog.*
  * 修改时间:  ?
  * 修改备注:  说明本次修改内容
  */
-class ContentDialog : KBaseFragDialog() {
+class ContentDialog : VBaseFragDialog() {
     companion object {
         fun newInstance(mContent: String): ContentDialog {
             var instance = ContentDialog()

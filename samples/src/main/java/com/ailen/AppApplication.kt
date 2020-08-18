@@ -1,8 +1,8 @@
 package com.ailen
 
-import com.venom.core.base.KBaseApplication
+import com.venom.core.base.VBaseApplication
 
-class AppApplication : KBaseApplication() {
+class AppApplication : VBaseApplication() {
     override fun onCreate() {
         super.onCreate()
     }

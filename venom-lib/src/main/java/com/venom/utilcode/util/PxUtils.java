@@ -2,7 +2,7 @@ package com.venom.utilcode.util;
 
 import android.content.Context;
 
-import com.venom.core.base.KBaseApplication;
+import com.venom.core.base.VBaseApplication;
 
 
 /**
@@ -40,7 +40,7 @@ public class PxUtils {
     }
 
     public static int dp2px(float dipValue) {
-        final float scale = getScreenDensity(KBaseApplication.KApp.getInstance());
+        final float scale = getScreenDensity(VBaseApplication.KApp.getInstance());
         return (int) (dipValue * scale + 0.5);
     }
 
